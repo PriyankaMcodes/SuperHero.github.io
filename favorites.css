@@ -1,0 +1,54 @@
+
+body {
+  overflow-x: hidden;
+}
+
+.cards-container {
+  justify-content: space-evenly;
+  /* height: 100%; */
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.card {
+  background-color: hsla(0, 0%, 100%, 0.62);
+  height: 490px;
+  width: 250px;
+  margin: 40px 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  gap: 4px;
+  z-index: 2;
+  backdrop-filter: blur(3px);
+}
+.card:hover {
+  background-color: rgb(145, 139, 139);
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+.character-info .btn {
+  font-size: 1.3rem;
+  width: 100%;
+}
+.character-info .btn :hover {
+  color: rgb(255, 0, 0);
+}
+.name {
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+}
+.remove-btn {
+  border-radius: 20px;
+}
+.remove-btn i {
+  font-size: 1.3rem;
+}
+.remove-btn i:hover {
+  color: rgb(255, 0, 0);
+}
+.no-characters {
+  font-size: 40px;
+  color: #fff;
+}
